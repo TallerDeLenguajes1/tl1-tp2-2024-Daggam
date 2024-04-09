@@ -1,0 +1,11 @@
+- ¿Puede ver el archivo tp2_1_2.c? ¿Por qué?
+
+No lo podemos ver, ya que cambiamos la rama de trabajo a la principal (main), donde el archivo c no existia.
+
+- Vuelva a ejecutar el comando gitk --all ¿Qué diferencias nota?
+
+Que el archivo respuestas.txt se guardo en la rama principal, mientras que las demás ramas no han sido afectadas.
+
+- Luego utilice el comando gitk –all para ver los cambios, ¿Qué nota?
+
+Todos los cambios realizados en la rama Opcion_2 fueron mezclados con la rama main, los cambios fueron vertidos en esa rama, haciendo visible, ahora sí, al archivo tp2_1_2.c
